@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votecount</title>
+</head>
+<body>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .box{
+            width: 400px;
+            height: auto;
+            background-color: wheat;
+            text-align: center;
+        }
+        
+        
+        #votes{
+            background-color: lightcoral;
+            width: 150px;
+            height: auto;
+            text-align: center;
+            margin-left: 120px;
+            font-size: 40px;
+        }
+        h5{
+            font-size: 35px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        input{
+            background-color:blue;
+            padding: 10px;
+            width: 150px;
+            color: white;
+            margin-bottom: 10px;
+            font-size: 20px;
+            
+        }
+        button{
+            background-color:blue;
+            width: 150px;
+            padding: 10px;
+            color: white;
+            margin-right: 20px;
+            font-size: 20px;
+        }
+    </style>
+    <div class="box">
+        <h1>VOTECOUNT</h1>
+        <button id="log">Logout</button>
+        <input type="button" value="Show votes" onclick="showVotes()">
+        <h5>! @ # $ %</h5>
+        <div id="votes"></div>
+    </div>
+    <script src="votecount.js"></script>
+</body>
+</html>

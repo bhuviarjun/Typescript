@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vote</title>
+</head>
+<body>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .vote{
+            width: 300px;
+            height: 250px;
+            background-color:wheat;
+            text-align: center;
+        }
+        input{
+            margin-top: 20px;
+        }
+    </style>
+    <div class="vote">
+    <input type="radio" name="vote" id="1" value="!"><label>!</label><br>
+    <input type="radio" name="vote" id="2" value="@"><label>@</label><br>
+    <input type="radio" name="vote" id="3" value="#"><label>#</label><br>
+    <input type="radio" name="vote" id="4" value="$"><label>$</label><br>
+    <input type="radio" name="vote" id="5" value="%"><label>%</label><br>
+    <input type="button" value="vote" onclick="vote()">
+    </div>
+    <script src="vote.js"></script>
+</body>
+</html>

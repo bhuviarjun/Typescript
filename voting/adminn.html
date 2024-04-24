@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: wheat;
+            width: 400px;
+            height: 300px;
+            text-align: center;
+            font-size: 20px;
+        }
+        h1{
+            margin-top: 40px;
+            margin-bottom: 15px;
+        }
+        .table{
+           margin-left: 70px;
+           margin-bottom: 10px;
+           margin-top: 20px;
+           font-size: 15px;
+        }
+        
+        td{
+            padding: 5px;
+        }
+        
+        button{
+            background-color: blue;
+            margin-top: 10px;
+            color: white;
+            padding: 5px;
+            border-style: solid;
+            border-radius: 10%;
+        }
+    </style>
+    <div class="container">
+        <h1>VOTING SYSTEM</h1>
+        <h3>ADMIN LOGIN</h3>
+        <div class="table">
+           <centre>
+            <table>
+                <tr>
+                    <td>AdminID</td>
+                    <td><input type="text" id="adminID">
+                    <td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" id="password">
+                    <td>
+                </tr>
+                </tr>
+            </table>
+            </centre>
+        </div>
+        <button id="btn1">LOGIN</button>
+    </div>
+    <script src="admin.js"></script>
+</body>
+</html>
+
